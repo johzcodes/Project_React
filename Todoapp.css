@@ -1,0 +1,75 @@
+:root {
+    --dark-color : #484545;
+    --grey-color : #E4E4E4;
+    --fancy : #D1AC33;
+}
+@font-face {
+    font-family: Montez;
+    src: url(../Todoapp/font-face/Montez-Regular_0.ttf);
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../Todoapp/font-face/Montserrat-Light.otf);
+}
+
+*, body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Montserrat-Light;
+    background-color: white;
+
+}
+
+.container {
+    margin: 50px 10px;
+}
+.header{
+    color: var(--fancy);
+    font-family: montez;
+    font-size: 50px;
+}
+.info {
+    margin-bottom: 5px;
+}
+.input{
+    border: 0px;
+    border-radius: 4px;
+    background-color: var(--grey-color);
+    padding: 5px 25px;
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: var(--fancy);
+    border: none;
+    padding: 3px 25px;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.recent{
+    font-weight: bold;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.list{
+    list-style: none;
+    padding: 5px;
+    margin: 10px 50px;
+}
+.span-list{
+    color: var(--dark-color);
+    background-color: var(--grey-color);
+    padding: 4px 20px;
+    text-align: left;
+}
+.delete-btn{
+    border: 0px;
+    background-color: var(--dark-color);
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
